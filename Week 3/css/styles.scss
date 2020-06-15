@@ -31,7 +31,6 @@ $carousel-item-height: 300px;
     background: $background-light ;
     color:floralwhite;
 }
-
 address{
     font-size:80%;
     margin:0px;
@@ -73,4 +72,19 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}   
+
+.cursor-hand {
+    cursor: pointer;
+  }
+
+.modal-header{
+    background: $background-dark;
+    color: floralwhite;
+    .close{
+        color: floralwhite;
+    }
+}
+.modal-body{
+    background: $background-pale;
 }
